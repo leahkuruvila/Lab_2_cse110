@@ -61,7 +61,7 @@
 
         </section>
 
-        <section></section>
+        <section>
             <strong>important resources/documents/recordings:</strong>
                 <p>Here is a <a href="https://github.com/">link</a> to an important resource.</p>
 
@@ -105,17 +105,17 @@
                 <br>
 
               <label for="checkbox">Comment:</label>
-              <input type="checkbox" id="checkbox" name="checkbox" value="checked"> 
+              <input type="checkbox" id="checkbox1" name="checkbox" value="checked"> 
           
               <br>
 
               <label for="checkbox">Concern:</label>
-              <input type="checkbox" id="checkbox" name="checkbox" value="checked"> 
+              <input type="checkbox" id="checkbox2" name="checkbox" value="checked"> 
 
               <br>
 
               <label for="checkbox">Feedback:</label>
-              <input type="checkbox" id="checkbox" name="checkbox" value="checked"> 
+              <input type="checkbox" id="checkbox3" name="checkbox" value="checked"> 
           
                 <br>
 
@@ -126,15 +126,15 @@
           
               <label for="feeling">How are you feeling about this meeting overall?</label>
               <select id="feeling" name="feeling">
-                <option value="blank"></option>
+                <option value="blank">N/A</option>
                 <option value="good">good</option>
                 <option value="bad">bad</option>
                 <option value="indifferent">indifferent</option>
               </select><br>
           
               <label for="duration">What are your thoughts on the duration of the meeting:</label>
-              <input list="duration" name="duration">
-              <datalist id="duration">
+              <input type="text" id="duration" name="duration" list="duration-list">
+              <datalist id="duration-list">
                 <option value="Too long">
                 <option value="Too short">
                 <option value="Just right">
@@ -143,12 +143,12 @@
           
           
               <p>What agenda topic do you think should be added to the next meeting?</p>
-              <input type="radio" id="option 1" name="option" value="option 1">
-              <label for="rock">Option 1</label><br>
-              <input type="radio" id="option 2" name="option" value="option 2">
-              <label for="pop">Option 2</label><br>
-              <input type="radio" id="option 3" name="option" value="option 3">
-              <label for="country">Option 2</label><br>
+              <input type="radio" id="option1" name="option" value="option 1">
+              <label for="option1">Option 1</label><br>
+              <input type="radio" id="option2" name="option" value="option 2">
+              <label for="option2">Option 2</label><br>
+              <input type="radio" id="option3" name="option" value="option 3">
+              <label for="option3">Option 2</label><br>
           
               <br>
 
