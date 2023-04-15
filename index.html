@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Leah Kuruvila">
+    <meta name="description" content="The purpose of this website is to create a function 'meeting minutes' to record meetings and be able to refer back to them">
+    <link rel="icon" href="favicon-16x16.png" type="image/png">
+    <title>Meeting Minutes</title>
+</head>
+<body>
+    <header>
+        <div>Meeting Minutes by Leah Kuruvila</div>
+
+    </header>
+
+    <main>
+        <section>
+            <h1>Welcome to My Meeting Minutes Website</h1>
+        </section>
+
+        <section>
+            <h2>Meeting Type: </h2>
+            <h3> Brainstorming</h3>
+            <h4>Date: 04/15/23</h4>
+        </section>
+
+        <hr>
+
+        <section>
+            <span> Attendence List: </span>
+            <ul>
+                <li>Leah</li>
+                <li>Walter</li>
+                <li>Jane</li>
+                <li>Jesse</li>
+                <li>Skylar</li>
+                <li>Mike</li>
+                <li>Saul</li>
+                <li>Hank</li>
+              </ul>
+        
+              <hr>
+
+            <h3>Meeting Agenda</h3>
+            <ol>
+                <li>Food</li>
+                <li>Water</li>
+                <li>Utilities</li>
+                <li>Shelter</li>
+              </ol>
+
+              <hr>
+
+              <strong>unfinished business:</strong>
+              <p>This is no unfinished business as all topics were covered in the last meeting.</p>
+
+              <em>new business:</em>
+              <p>We <b>need</b> to brainstorm ways to implement the new ideas that we came up with in the last meeting.</p>
+
+        </section>
+
+        <section></section>
+            <strong>important resources/documents/recordings:</strong>
+                <p>Here is a <a href="https://github.com/">link</a> to an important resource.</p>
+
+                <br>
+
+                <p>A picture of our meeting:</p>
+                <img src="meeting.jpeg" alt="A picture of the meeting" width="500" height="300">
+
+                <p>meeting recording:</p>
+                <video src="meeting_recording.MOV" width="500" height="300" poster="example-poster.jpg" controls></video>
+
+                <p>meeting audio:</p>
+                <audio src="audio_only.m4a" controls></audio>
+    </section> 
+
+    <section>
+        <details>
+            <summary>The names of the people pictured in this photo</summary>
+            <p>Leah, Jesse, Jane, Walter, Skylar, Mike, Saul, Hank</p>
+          </details>
+
+    </section>
+
+    <section>
+
+        <form>
+            <fieldset>
+              <legend>Comments/Questions/Concerns Form</legend>
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" required><br>
+
+              <label for="date">Date:</label>
+              <input type="date" id="date" name="date"><br>
+
+
+              <p><b>Please specify the type of submission:</b></p>
+
+              <label for="checkbox">Question:</label>
+              <input type="checkbox" id="checkbox" name="checkbox" value="checked"> 
+
+                <br>
+
+              <label for="checkbox">Comment:</label>
+              <input type="checkbox" id="checkbox" name="checkbox" value="checked"> 
+          
+              <br>
+
+              <label for="checkbox">Concern:</label>
+              <input type="checkbox" id="checkbox" name="checkbox" value="checked"> 
+
+              <br>
+
+              <label for="checkbox">Feedback:</label>
+              <input type="checkbox" id="checkbox" name="checkbox" value="checked"> 
+          
+                <br>
+
+
+              <label for="submission"><b>Submission Box:</b></label>
+              <textarea id="submission" name="submission" rows="10" required></textarea><br>
+          
+          
+              <label for="feeling">How are you feeling about this meeting overall?</label>
+              <select id="feeling" name="feeling">
+                <option value="blank"></option>
+                <option value="good">good</option>
+                <option value="bad">bad</option>
+                <option value="indifferent">indifferent</option>
+              </select><br>
+          
+              <label for="duration">What are your thoughts on the duration of the meeting:</label>
+              <input list="duration" name="duration">
+              <datalist id="duration">
+                <option value="Too long">
+                <option value="Too short">
+                <option value="Just right">
+                    <option value="No thoughts">
+              </datalist><br>
+          
+          
+              <p>What agenda topic do you think should be added to the next meeting?</p>
+              <input type="radio" id="option 1" name="option" value="option 1">
+              <label for="rock">Option 1</label><br>
+              <input type="radio" id="option 2" name="option" value="option 2">
+              <label for="pop">Option 2</label><br>
+              <input type="radio" id="option 3" name="option" value="option 3">
+              <label for="country">Option 2</label><br>
+          
+              <br>
+
+              <button type="submit">Submit Form</button>
+            </fieldset>
+          </form>
+
+
+
+    </section>
+
+
+
+    </main>
+
+    <footer>
+
+
+    </footer>
+    
+</body>
+</html>
